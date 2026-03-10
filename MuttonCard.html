@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preload" as="image" href="https://res.cloudinary.com/dgwzungt8/image/upload/v1772188557/WhatsApp_Image_2026-02-27_at_3.55.48_PM_jwvcat.jpg">
+    <link rel="stylesheet" href="AmmammaChetiRuchulu.css">
+    <title>Mutton Items</title>
+</head>
+<body>
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Explore Mutton Items</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFViD5VieIxHm-Wn7SsSwde5y6YGY1quShDA&s" class="menu-item-image w-100" alt="Mutton Biryani" loading="lazy" />
+                        <h1 class="menu-card-title">Mutton Biryani</h1>
+                        <p class="fw-bold text-success">₹350</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Biryani',350)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://t3.ftcdn.net/jpg/16/54/64/02/360_F_1654640240_bwOfEFxkyPmMyl2Dk7IFJUzIeWW3TxZn.jpg" alt="Fish Curry" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Haleem</h1>
+                        <p class="fw-bold text-success">₹400</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Haleem',400)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://sinfullyspicy.com/wp-content/uploads/2023/03/1200-by-1200-images-3.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Curry </h1>
+                        <p class="fw-bold text-success">₹300</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Curry',300)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeP1c2CH9Dz84ACVdtXvX7qODScaGxPfHVTg&s" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Rogan Josh</h1>
+                        <p class="fw-bold text-success">₹250</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Rogan Josh',250)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://imagecdn.farziengineer.co/cambaytiger/hosted/Mutton_Korma-737856ebde58.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Korma</h1>
+                        <p class="fw-bold text-success">₹400</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Korma',400)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://priyafoods.com/cdn/shop/files/KEEMAMUTTON_2.jpg?v=1707215205&width=1780" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Keema</h1>
+                        <p class="fw-bold text-success">₹200</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Keema',200)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://vaya.in/recipes/wp-content/uploads/2018/03/mutton-fry.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Fry</h1>
+                        <p class="fw-bold text-success">₹250</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Fry',250)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://media.istockphoto.com/id/1422307046/photo/spicy-lamb-chops-with-salad-mayo-dip-chili-sauce-and-fries-isolated-on-cutting-board-side.jpg?s=612x612&w=0&k=20&c=dllqRIB3LoWr_I5CKLCohJqdtWN9v7P3A9-tC4WDymg=" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Chops</h1>
+                        <p class="fw-bold text-success">₹500</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Chops',500)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ77SY26GjI2bqFTEDnuKG7Lyou2LTMijjFZw&s" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Paya</h1>
+                        <p class="fw-bold text-success">₹250</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Paya',250)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/kibbeh-spiced-lamb-skewers-index-667ae371a7eef.jpg?crop=0.6669269816477938xw%3A1xh%3Bcenter%2Ctop&resize=1200%3A%2A" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Sheekh Kebab</h1>
+                        <p class="fw-bold text-success">₹350</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Sheekh Kebab',350)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://www.licious.in/blog/wp-content/uploads/2022/08/shutterstock_422090983.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Liver Fry</h1>
+                        <p class="fw-bold text-success">₹200</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Liver Fry',200)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://diabetesindia.com/diabetes-causes-preventions/recipes/images/ap_mutton_pepper_fry.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Pepper Fry</h1>
+                        <p class="fw-bold text-success">₹250</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mutton Pepper Fry',250)">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-end">
+                       <a href="./AmmammaChetiRuchulu.html"> <button class="btn btn-warning">Back</button> </a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+function saveCart() {
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart(name, price) {
+    let item = cart.find(i => i.name === name);
+    if (item) {
+        item.quantity++;
+    } else {
+        cart.push({
+            name,
+            price,
+            quantity: 1
+        });
+    }
+    saveCart();
+    alert("🛒 Item added to cart!");
+}
+</script>
+</body>
+</html>
