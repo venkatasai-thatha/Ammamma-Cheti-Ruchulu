@@ -173,7 +173,7 @@ html {
 }
 
 .menu-item-image {
-    border-radius: 16px;
+    border-radius: 7px;
     height: 185px;
 }
 
@@ -194,7 +194,7 @@ html {
 
 .menu-item-card {
     height: 350px;
-    border-radius: 16px;
+    border-radius: 0px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     overflow: hidden;
@@ -367,4 +367,5 @@ html {
 .nav-link.active {
     color: #d0b200 !important;
     font-weight: bold;
+
 }
