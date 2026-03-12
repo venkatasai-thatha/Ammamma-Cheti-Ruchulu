@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preload" as="image" href="https://res.cloudinary.com/dgwzungt8/image/upload/v1772188557/WhatsApp_Image_2026-02-27_at_3.55.48_PM_jwvcat.jpg">
+    <link rel="stylesheet" href="AmmammaChetiRuchulu.css">
+    <title>Salads Items</title>
+</head>
+<body>
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <h1 class="menu-section-heading">Explore Salad Items</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://marleyspoon.com/media/recipes/8955/main_photos/large/SKU1008_web-c5502cb2a7e45ce93c52ea54c071cff2.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Caesar Salad</h1>
+                        <p class="fw-bold text-success">₹180</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Caesar Salad',180)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://png.pngtree.com/background/20250821/original/pngtree-a-close-up-shot-of-greek-salad-with-feta-cheese-lettuce-picture-image_16416964.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Greek Salad</h1>
+                        <p class="fw-bold text-success">₹170</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Greek Salad',170)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://cdn.sunbasket.com/51aff5d6-80bf-421e-8e24-68c54941ab76.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Cobb Salad</h1>
+                        <p class="fw-bold text-success">₹200</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Cobb Salad',200)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/caprese-salad-recipe-2-664ceea357d6f.jpg?crop=0.6666666666666667xw%3A1xh%3Bcenter%2Ctop&resize=1200%3A%2A" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Caprese Salad</h1>
+                        <p class="fw-bold text-success">₹190</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Caprese Salad',190)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2023/06/Wardorf-salad-474bff5.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Waldorf Salad</h1>
+                        <p class="fw-bold text-success">₹175</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Waldorf Salad',175)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://assets.bonappetit.com/photos/66573628bb9e3cf71a29c890/4%3A3/w_4444%2Ch_3333%2Cc_limit/tuna-nicoise-salad_LEDE_052224_6151_VOG_final.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Nicoise Salad</h1>
+                        <p class="fw-bold text-success">₹210</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Nicoise Salad',210)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://assets.epicurious.com/photos/627e777008f07d67700c36cf/1%3A1/w_2560%2Cc_limit/ColeSlaw_RECIPE_051222_33992.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Coleslaw</h1>
+                        <p class="fw-bold text-success">₹120</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Coleslaw',120)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://www.allrecipes.com/thmb/LUZ2ZXjuWFO-6c_dVuV2y_TUhUQ%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29/14385-pasta-salad-mfs-62-2cbb356b049740e7832e4bbb899881de.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Pasta Salad</h1>
+                        <p class="fw-bold text-success">₹160</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Pasta Salad',160)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://png.pngtree.com/png-clipart/20250505/original/pngtree-fresh-fruit-salad-with-kiwi-strawberry-and-mango-png-image_19404848.png" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Fruit Salad</h1>
+                        <p class="fw-bold text-success">₹140</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Fruit Salad',140)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://mojo.generalmills.com/api/public/content/9QObP82pBUOMLimNVQjjyA_gmi_hi_res_jpeg.jpeg?t=466b54bb264e48b199fc8e83ef1136b4&v=9ce8dc50" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Potato Salad</h1>
+                        <p class="fw-bold text-success">₹150</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Potato Salad',150)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://www.eatingwell.com/thmb/7tzN1Jtb8nAFTu3-wLgLGtekkLY%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29/7671182-93cb361e4aba4f2c8ba97b31cf1d3732.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Chicken Salad</h1>
+                        <p class="fw-bold text-success">₹190</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Chicken Salad',190)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://easychefpro.com/cdn/shop/files/easychef-pro-recipe-flavorful-beef-taco-salad-with-crunchy-tortilla-chips-37017811615827.jpg?v=1740239833&width=800" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Taco Salad</h1>
+                        <p class="fw-bold text-success">₹200</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Taco Salad',200)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-end">
+                       <a href="./index.html"> <button class="btn btn-warning">Back</button> </a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+function saveCart() {
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart(name, price) {
+    let item = cart.find(i => i.name === name);
+    if (item) {
+        item.quantity++;
+    } else {
+        cart.push({
+            name,
+            price,
+            quantity: 1
+        });
+    }
+    saveCart();
+    alert("🛒 Item added to cart!");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preload" as="image" href="https://res.cloudinary.com/dgwzungt8/image/upload/v1772188557/WhatsApp_Image_2026-02-27_at_3.55.48_PM_jwvcat.jpg">
+    <link rel="stylesheet" href="AmmammaChetiRuchulu.css">
+    <title>Desserts Items</title>
+</head>
+<body>
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Explore Desserts Items</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://www.carluccios.com/cdn/shop/articles/Tiramisu_1d9de3f3-1f3d-40c4-bcab-b1c669a7616d.jpg?v=1752744640" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Tiramisu</h1>
+                        <p class="fw-bold text-success">₹220</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Tiramisu',220)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://www.allrecipes.com/thmb/5ekGu_8lZ7BSiQtci_beobJYNmE%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29/43914-supreme-strawberry-topping-DDMFS-4x3-dcf6ed1a225e4fa18a2ed61830e57454.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Cheesecake</h1>
+                        <p class="fw-bold text-success">₹250</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Cheesecake',250)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://www.seriouseats.com/thmb/lzCcXBC2cO9XBaccq9dDa4CslXo%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29/20250421-SEA-NoBakeFudgyChocolateSquares-MorganGlaze-Beauty1-2d3be09670754d099c965bc3888efcaf.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Brownie</h1>
+                        <p class="fw-bold text-success">₹180</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Brownie',180)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://media.diy.com/is/image/KingfisherDigital/urbnliving-10cm-height-4pcs-footed-ice-cream-sundae-dessert-glasses-cup-dish-bowl-fruit-cocktail-set~5063536039772_05c_MP?%24MOB_PREV%24=&%24height=600&%24width=600" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Ice Cream</h1>
+                        <p class="fw-bold text-success">₹120</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Ice Cream',120)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://img.taste.com.au/8U4aRnuZ/taste/2016/11/gulab-jamun-80285-1.jpeg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Gulab Jamun</h1>
+                        <p class="fw-bold text-success">₹150</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Gulab Jamun',150)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://www.allrecipes.com/thmb/ftmd4xSXxQOcYwyLoVOAeEQHkpY%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29/223232macaronsKim4x3-97e86da8c9e849218d5b70ac93bbe5f1.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Macarons</h1>
+                        <p class="fw-bold text-success">₹300</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Macarons',300)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/81hYVaxKPpL._AC_UF894%2C1000_QL80_.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Donuts</h1>
+                        <p class="fw-bold text-success">₹140</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Donuts',140)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://www.texanerin.com/content/uploads/2023/03/protein-mousse-horizontal-photo.jpg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Pudding</h1>
+                        <p class="fw-bold text-success">₹160</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Pudding',160)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://www.foodandwine.com/thmb/2BC9mOqmfeD_3ixO8UQcQW_OVlE%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29/old-fashioned-apple-pie-FT-RECIPE1024-659641b5e78d4280840da7e08dd2e2c4.jpeg" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Apple Pie</h1>
+                        <p class="fw-bold text-success">₹210</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Apple Pie',210)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://tryaladdin.com/cdn/shop/files/kocak-professional-large-cut-square-antep-pistachio-baklava-1kg-aladdin-1722260.png?v=1763551904" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Baklava</h1>
+                        <p class="fw-bold text-success">₹260</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Baklava',260)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://theranchtable.com/cdn/shop/articles/DSKL406H_017_2048x2048.jpg?v=1698949822" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Churros</h1>
+                        <p class="fw-bold text-success">₹190</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Churros',190)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://moishi.com/cdn/shop/files/Chocolate8a_1120x.png?v=1725279683" class="menu-item-image w-100">
+                        <h1 class="menu-card-title">Mochi</h1>
+                        <p class="fw-bold text-success">₹230</p>
+                        <button class="btn btn-warning w-100" onclick="addToCart('Mochi',230)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-end">
+                       <a href="./index.html"> <button class="btn btn-warning">Back</button> </a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+function saveCart() {
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart(name, price) {
+    let item = cart.find(i => i.name === name);
+    if (item) {
+        item.quantity++;
+    } else {
+        cart.push({
+            name,
+            price,
+            quantity: 1
+        });
+    }
+    saveCart();
+    alert("🛒 Item added to cart!");
+}
+</script>
+</body>
+</html>
